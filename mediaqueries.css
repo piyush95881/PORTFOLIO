@@ -45,6 +45,21 @@
   .about-containers {
     margin-top: 0;
   }
+  #experience,
+  #projects {
+    padding: 2rem 1rem;
+  }
+
+  .experience-details-container,
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-container {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -99,5 +114,50 @@
   }
   .text-container {
     text-align: justify;
+  }
+  #experience,
+  #projects {
+    padding: 1.5rem 1rem;
+  }
+
+  .experience-details-container,
+  .about-containers {
+    gap: 1.5rem;
+  }
+
+  .experience-sub-title {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .details-container {
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.25rem;
+  }
+
+  .project-description {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  .tech-stack {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
   }
 }

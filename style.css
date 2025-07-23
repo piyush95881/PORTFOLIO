@@ -498,3 +498,58 @@ footer p {
   font-style: italic;
 }
 
+/* PROJECTS SECTION IMPROVEMENTS */
+
+.about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.details-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+  min-height: 560px;
+  padding: 2rem 1.5rem;
+  background: #fafafa;
+  border-radius: 1.5rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.details-container:hover {
+  transform: translateY(-5px);
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  color: #111;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.tech-stack {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+}
