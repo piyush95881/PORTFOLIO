@@ -430,3 +430,71 @@ footer {
 footer p {
   text-align: center;
 }
+#experience {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.section__text__p1 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 2px solid #000;
+  border-radius: 12px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.experience-header {
+  margin-bottom: 2rem;
+}
+
+.experience-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.role-title {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.date-range {
+  color: #888;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.experience-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-item p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.tech-stack {
+  margin-top: 0.5rem;
+  color: #444;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
